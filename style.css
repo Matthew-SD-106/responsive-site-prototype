@@ -1,0 +1,15 @@
+#main-block{grid-area: description;}
+#images{grid-area: images;}
+.main{grid-area: foods}
+
+main{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+
+.logo{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
